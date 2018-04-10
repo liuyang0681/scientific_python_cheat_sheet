@@ -1,59 +1,59 @@
-Scientific Python Cheatsheet
+Python科学计算备忘单
 ============================
 <!-- markdown-toc start - Don't forget to edit this section according to your modifications -->
-**Table of Contents**
+**目录**
 
-- [Scientific Python Cheatsheet](#scientific-python-cheatsheet)
-    - [Pure Python](#pure-python)
-        - [Types](#types)
-        - [Lists](#lists)
-        - [Dictionaries](#dictionaries)
-        - [Sets](#sets)
-        - [Strings](#strings)
-        - [Operators](#operators)
-        - [Control Flow](#control-flow)
-        - [Functions, Classes, Generators, Decorators](#functions-classes-generators-decorators)
+- [Python科学计算备忘单](#scientific-python-cheatsheet)
+    - [纯Python](#pure-python)
+        - [类型](#types)
+        - [列表](#lists)
+        - [字典](#dictionaries)
+        - [集合](#sets)
+        - [字符串](#strings)
+        - [操作符](#operators)
+        - [控制流](#control-flow)
+        - [函数、类、生成器和修饰器](#functions-classes-generators-decorators)
     - [IPython](#ipython)
-        - [console](#console)
-        - [debugger](#debugger)
-        - [command line](#command-line)
+        - [控制台](#console)
+        - [调试器](#debugger)
+        - [命令行](#command-line)
     - [NumPy](#numpy-import-numpy-as-np)
-        - [array initialization](#array-initialization)
-        - [indexing](#indexing)
-        - [array properties and operations](#array-properties-and-operations)
-        - [boolean arrays](#boolean-arrays)
-        - [elementwise operations and math functions](#elementwise-operations-and-math-functions)
-        - [inner/ outer products](#inner-outer-products)
-        - [linear algebra/ matrix math](#linear-algebra-matrix-math)
-        - [reading/ writing files](#reading-writing-files)
-        - [interpolation, integration, optimization](#interpolation-integration-optimization)
-        - [fft](#fft)
-        - [rounding](#rounding)
-        - [random variables](#random-variables)
+        - [数组初始化](#array-initialization)
+        - [索引](#indexing)
+        - [数组属性和操作](#array-properties-and-operations)
+        - [布尔数组](#boolean-arrays)
+        - [元素向量化操作与数学函数](#elementwise-operations-and-math-functions)
+        - [内/外积](#inner-outer-products)
+        - [线性代数/矩阵数学](#linear-algebra-matrix-math)
+        - [读/写文件](#reading-writing-files)
+        - [插值、积分与优化](#interpolation-integration-optimization)
+        - [FFT](#fft)
+        - [舍入](#rounding)
+        - [随机变量](#random-variables)
     - [Matplotlib](#matplotlib-import-matplotlib.pyplot-as-plt)
-        - [figures and axes](#figures-and-axes)
-        - [figures and axes properties](#figures-and-axes-properties)
-        - [plotting routines](#plotting-routines)
+        - [图形与轴](#figures-and-axes)
+        - [图像与轴属性](#figures-and-axes-properties)
+        - [绘图惯例](#plotting-routines)
     - [Scipy](#scipy-import-scipy-as-sci)
-        - [interpolation](#interpolation)
-        - [linear algebra](#linear-algebra)
-        - [integration](#integration)
+        - [插值](#interpolation)
+        - [线性代数](#linear-algebra)
+        - [积分](#integration)
     - [Pandas](#pandas-import-pandas-as-pd)
-        - [data structures](#data-structures)
+        - [数据结构](#data-structures)
         - [DataFrame](#dataframe)
         
 <!-- markdown-toc end -->
 
-## Pure Python
+## 纯Python
 
-### Types
+### 类型
 ```python
-a = 2           # integer
-b = 5.0         # float
-c = 8.3e5       # exponential
-d = 1.5 + 0.5j  # complex
-e = 4 > 5       # boolean
-f = 'word'      # string
+a = 2           # 整数
+b = 5.0         # 浮点数
+c = 8.3e5       # 指数
+d = 1.5 + 0.5j  # 浮点数
+e = 4 > 5       # 布尔值
+f = 'word'      # 字符串
 ```
 
 ### Lists
